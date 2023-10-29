@@ -13,7 +13,7 @@ import { Redirect } from "../redirect/redirect";
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-      <Route path="/home" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/resume" element={<ResumePage />} />
       <Route path="/work" element={<WorkPage />} />
       <Route path="/contact" element={<ContactPage />} />
