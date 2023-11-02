@@ -1,9 +1,9 @@
 import Pos1 from "../../../assets/portfolio/pos-system/pos1.PNG";
 import Pos2 from "../../../assets/portfolio/pos-system/pos2.PNG";
-import Sosialbook from "../../../assets/portfolio/sosialbook/sosialbook.png";
-import EventManagement from "../../../assets/portfolio/event-ticket-management/eventmanagement.png";
+import Sosialbook from "../../../assets/portfolio/sosialbook/sosialbook.PNG";
+import EventManagement from "../../../assets/portfolio/event-ticket-management/eventmanagement.PNG";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import styles
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // const imagePos = [Pos1, Pos2];
 // const imageEventManagement = [EventManagement];
