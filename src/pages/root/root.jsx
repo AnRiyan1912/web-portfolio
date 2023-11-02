@@ -4,11 +4,15 @@ import { AiOutlineHome } from "react-icons/ai";
 import { RiProfileLine } from "react-icons/ri";
 import { MdWorkOutline } from "react-icons/md";
 import { BiSolidContact } from "react-icons/bi";
+import { CgDetailsMore } from "react-icons/cg";
 import "../../css/root.css";
+import { useState } from "react";
 export const Root = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <>
-      <div className="fixed top-0 flex justify-between items-center w-full 2xl:h-24 h-14">
+      <div className="fixed top-0 flex justify-between items-center w-full 2xl:h-24 h-14 z-20 max-sm:bg-slate-100">
         <div></div>
 
         <div className="flex gap-1 text-2xl 2xl:text-4xl">
@@ -28,12 +32,26 @@ export const Root = () => {
 
         <div></div>
       </div>
-      <div className="fixed flex w-full gap-80 justify-center 2xl:top-28 z-10 xl:top-16 max-2xl:right-40">
+
+      {/* humberger menu button */}
+      <div className="md:hidden fixed top-14 z-30">
+        <button
+          className="p-1 bg-slate-100 text-black mt-2"
+          onClick={() => (openMenu ? setOpenMenu(false) : setOpenMenu(true))}
+        >
+          <CgDetailsMore className="w-8 h-8" />
+        </button>
+      </div>
+      <div
+        className={`fixed flex w-full gap-80 justify-center 2xl:top-28 z-10 xl:top-16 max-2xl:right-40 max-sm:top-14    ${
+          openMenu ? "" : "max-sm:hidden"
+        }`}
+      >
         <div className=""></div>
         <div className=""></div>
         <div className=""></div>
-        <div className="flex gap-8 p-2 px-8 rounded-2xl bg-white">
-          <div className="bg-slate-100  rounded-2xl 2xl:h-20  h-16 max-2xl:w-16 2xl:w-20 flex justify-center items-center xl:p-3 bg-a p-2 hover:bg-orange-400 hover:bg-orange-500 ">
+        <div className="flex gap-8 p-2 px-8 rounded-2xl bg-white max-sm:grid max-sm:fixed max-sm:left-0 max-sm:w-40 max-sm:flex max-sm:justify-end">
+          <div className="bg-slate-100  rounded-2xl 2xl:h-20   h-16 max-2xl:w-16 2xl:w-20 flex justify-center items-center xl:p-3 bg-a p-2 hover:bg-orange-400 hover:bg-orange-500 ">
             <a
               href="/"
               className="2xl:w-16  flex justify-center items-center hover:text-white text-black "
@@ -74,7 +92,7 @@ export const Root = () => {
           </div>
           <div className="bg-slate-100  rounded-2xl 2xl:h-20  h-16 max-2xl:w-16 2xl:w-20 flex justify-center items-center xl:p-3 bg-a p-2 hover:bg-orange-400 hover:bg-orange-500 ">
             <a
-              href="/home"
+              href="/contact"
               className="2xl:w-16  flex justify-center items-center hover:text-white text-black "
             >
               <div>

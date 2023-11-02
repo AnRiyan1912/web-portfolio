@@ -6,14 +6,14 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { RiProfileLine } from "react-icons/ri";
 import { GiGraduateCap } from "react-icons/gi";
 import { PiHandbagFill } from "react-icons/pi";
-import Profile from "../../assets/profile.jpg";
-import logopurwadhika from "../../assets/logo-purwadhika.png";
+import Profile from "../../assets/profile/profile.jpg";
+import logopurwadhika from "../../assets/logo/logo-purwadhika.png";
 
 export const ResumePage = () => {
   return (
     <div className="col-auto ">
-      <div className="fixed flex justify-center w-full h-full top-40">
-        <div className="flex justify-center w-10/12 gap-7">
+      <div className="fixed flex justify-center w-full h-full top-40 max-sm:relative ">
+        <div className="flex justify-center w-10/12 gap-7 max-sm:grid max-sm:grid-cols-1">
           <div className="2xl:w-2/5  col-auto">
             <div className="flex justify-center">
               <div className="flex items-center justify-center absolute 2xl:-top-2 -top-10">
@@ -24,9 +24,9 @@ export const ResumePage = () => {
                 />
               </div>
             </div>
-            <div className="w-full h-3/4 2xl:mt-16 rounded-2xl font-semibold bg-white col-auto max-2xl:p-4">
+            <div className="w-full h-3/4 2xl:mt-16 rounded-2xl font-semibold bg-white col-auto max-2xl:p-4 max-sm:h-full  ">
               <div className="flex justify-center ">
-                <div className="2xl:mt-24 mt-8 col-auto w-full">
+                <div className="2xl:mt-24 mt-8 col-auto w-full max-sm:p-3">
                   <div className="flex justify-center items-center">
                     <span className="text-black 2xl:text-2xl text-lg">
                       Andre Riyanto
@@ -144,8 +144,8 @@ export const ResumePage = () => {
             </div>
           </div>
 
-          <div className="2xl:w-3/6 w-5/6">
-            <div className="col-auto text-black 2xl:mt-16 h-3/4 rounded-2xl bg-white">
+          <div className="2xl:w-3/6 w-5/6  max-sm:w-full">
+            <div className="col-auto text-black 2xl:mt-16 h-3/4 rounded-2xl bg-white max-sm:h-full ">
               <div className="flex justify-center">
                 <div className="w-11/12">
                   <div className="2xl:p-4 p-2 flex gap-8 items-center">
@@ -180,7 +180,7 @@ export const ResumePage = () => {
                 <div></div>
                 <div className="col-auto w-2/5 bg-orange-200 2xl:p-5 p-2.5 rounded-2xl">
                   <div className="p-1">
-                    <span className="text-xs">
+                    <span className="text-xs max-sm:text-xs">
                       28 juni 2023 - 22 september 2023
                     </span>
                   </div>
@@ -190,12 +190,12 @@ export const ResumePage = () => {
                       alt=""
                       className="object-fill 2xl:w-14 2xl:h-14 w-7 h-7"
                     />
-                    <span className="text-base font-semibold">
+                    <span className="text-base font-semibold max-sm:text-sm">
                       Purwadhika Digital School
                     </span>
                   </div>
-                  <div className="p-1">
-                    <span className="text-sm">FullStack Web</span>
+                  <div className="p-1 max-sm:text-xs font-medium">
+                    <span>FullStack Web</span>
                   </div>
                 </div>
 
@@ -265,53 +265,77 @@ export const ResumePage = () => {
 
               {/* all */}
 
-              <div className="flex justify-between gap-10 mt-3 2xl:mt-6">
+              <div className="flex justify-between gap-10 mt-3 2xl:mt-6 max-sm:gap-2 ">
                 <div></div>
-                <div className="col-auto w-2/5">
-                  <div className="flex justify-between">
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-xs">HTML</span>
+                <div className="col-auto w-2/5 max-sm:w-full">
+                  <div className="flex justify-between max-sm:grid max-sm:grid-cols-2 gap-2">
+                    <div className="bg-slate-100 p-2 rounded-xl flex items-center">
+                      <span className="max-2xl:text-xs max-sm:text-xs">
+                        HTML
+                      </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">CSS</span>
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        CSS
+                      </span>
                     </div>
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">JavaScript ES6</span>
-                    </div>
-                  </div>
-                  <div className="flex justify-between mt-2 2xl:mt-4">
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">React.Js</span>
-                    </div>
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">Vite.Js</span>
-                    </div>
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">Express.Js</span>
+                    <div className="bg-slate-100 p-2 rounded-xl flex items-center">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        JavaScript ES6
+                      </span>
                     </div>
                   </div>
-                  <div className="flex justify-between mt-2 2xl:mt-4">
+                  <div className="flex justify-between mt-2 2xl:mt-4 max-sm:grid max-sm:grid-cols-2 gap-2">
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">Sequelize</span>
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        React.Js
+                      </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">MYSQL</span>
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Vite.Js
+                      </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">REST API</span>
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Express.Js
+                      </span>
+                    </div>
+                  </div>
+                  <div className="flex justify-between mt-2 2xl:mt-4 max-sm:grid max-sm:grid-cols-2 gap-2">
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Sequelize
+                      </span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        MYSQL
+                      </span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        REST API
+                      </span>
                     </div>
                   </div>
                 </div>
-                <div className="col-auto  w-2/5">
-                  <div className="flex justify-between">
+                <div className="col-auto  w-2/5 max-sm:w-full">
+                  <div className="flex justify-between max-sm:grid max-sm:grid-cols-2 gap-2">
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-xs">VS code</span>
+                      <span className="max-2xl:text-xs max-sm:text-xs">
+                        VS code
+                      </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">Postman</span>
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Postman
+                      </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm">Github</span>
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Github
+                      </span>
                     </div>
                   </div>
                 </div>

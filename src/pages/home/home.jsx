@@ -4,13 +4,13 @@ import { BsGithub } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { RiProfileLine } from "react-icons/ri";
-import Profile from "../../assets/profile.jpg";
+import Profile from "../../assets/profile/profile.jpg";
 
 export const HomePage = () => {
   return (
     <div className="col-auto ">
-      <div className="fixed flex justify-center w-full h-full top-40">
-        <div className="flex justify-center w-10/12 gap-7">
+      <div className="fixed flex justify-center w-full h-full top-40 max-sm:relative ">
+        <div className="flex justify-center w-10/12 gap-7 max-sm:grid max-sm:grid-cols-1">
           <div className="2xl:w-2/5  col-auto">
             <div className="flex justify-center">
               <div className="flex items-center justify-center absolute 2xl:-top-2 -top-10">
@@ -21,9 +21,9 @@ export const HomePage = () => {
                 />
               </div>
             </div>
-            <div className="w-full h-3/4 2xl:mt-16 rounded-2xl font-semibold bg-white col-auto max-2xl:p-4">
+            <div className="w-full h-3/4 2xl:mt-16 rounded-2xl font-semibold bg-white col-auto max-2xl:p-4 max-sm:h-full  ">
               <div className="flex justify-center ">
-                <div className="2xl:mt-24 mt-8 col-auto w-full">
+                <div className="2xl:mt-24 mt-8 col-auto w-full max-sm:p-3">
                   <div className="flex justify-center items-center">
                     <span className="text-black 2xl:text-2xl text-lg">
                       Andre Riyanto
@@ -141,8 +141,8 @@ export const HomePage = () => {
             </div>
           </div>
 
-          <div className="2xl:w-3/6">
-            <div className="col-auto text-black 2xl:mt-16 h-3/4 rounded-2xl bg-white">
+          <div className="2xl:w-3/6 ">
+            <div className="col-auto text-black 2xl:mt-16 h-3/4 rounded-2xl bg-white max-sm:h-full">
               <div className="flex justify-center">
                 <div className="w-11/12">
                   <div className="2xl:p-4 p-2 flex gap-8 items-center">
@@ -168,8 +168,8 @@ export const HomePage = () => {
                     </span>
                   </div>
                   <div className="col-auto p-1 2xl:mt-2">
-                    <div className="flex justify-between gap-2 max-2xl:items-center">
-                      <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 ">
+                    <div className="flex justify-between gap-2 max-2xl:items-center max-sm:grid">
+                      <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 max-sm:w-full">
                         <span className="flex 2xl:text-2xl text-sm items-center gap-2 font-bold">
                           <BiCodeAlt size={25} className="text-red-500 " /> Web
                           Development
@@ -177,61 +177,40 @@ export const HomePage = () => {
                         <span className="max-2xl:text-sm leading-normal">
                           <h6>
                             As a developer, I find myself most captivated by the
-                            power and flexibility of NEXT.js. im always eager to
-                            dive into new projects that leverage NEXT.js and
+                            power and flexibility of REACT.js. im always eager
+                            to dive into new projects that leverage REACT.js and
                             discover innovative ways to create fast, scalable,
                             and user-friendly applications.
                           </h6>
                         </span>
                       </div>
-                      <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 ">
+                      {/* <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 max-sm:w-full">
                         <span className="flex 2xl:text-2xl text-sm items-center gap-2 font-bold">
                           <BiCodeAlt size={25} className="text-red-500 " /> Web
-                          Development
                         </span>
                         <span className="max-2xl:text-sm  leading-normal">
-                          <h6>
-                            As a developer, I find myself most captivated by the
-                            power and flexibility of NEXT.js. im always eager to
-                            dive into new projects that leverage NEXT.js and
-                            discover innovative ways to create fast, scalable,
-                            and user-friendly applications.
-                          </h6>
+                          <h6></h6>
                         </span>
-                      </div>
+                      </div> */}
                     </div>
-                    <div className="flex justify-between gap-2 max-2xl:items-center max-2xl:mt-2 mt-4">
-                      <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 ">
+                    {/* <div className="flex justify-between gap-2 max-2xl:items-center max-2xl:mt-2 mt-4 max-sm:grid">
+                      <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 max-sm:w-full ">
                         <span className="flex 2xl:text-2xl text-sm items-center gap-2 font-bold">
                           <BiCodeAlt size={25} className="text-red-500 " /> Web
-                          Development
                         </span>
                         <span className="max-2xl:text-sm  leading-normal">
-                          <h6>
-                            As a developer, I find myself most captivated by the
-                            power and flexibility of NEXT.js. im always eager to
-                            dive into new projects that leverage NEXT.js and
-                            discover innovative ways to create fast, scalable,
-                            and user-friendly applications.
-                          </h6>
+                          <h6></h6>
                         </span>
                       </div>
-                      <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 ">
+                      <div className="w-2/4 2xl:p-4 p-2 rounded-2xl bg-orange-200 max-sm:w-full">
                         <span className="flex 2xl:text-2xl text-sm items-center gap-2 font-bold">
                           <BiCodeAlt size={25} className="text-red-500 " /> Web
-                          Development
                         </span>
                         <span className="max-2xl:text-sm  leading-normal">
-                          <h6>
-                            As a developer, I find myself most captivated by the
-                            power and flexibility of NEXT.js. im always eager to
-                            dive into new projects that leverage NEXT.js and
-                            discover innovative ways to create fast, scalable,
-                            and user-friendly applications.
-                          </h6>
+                          <h6></h6>
                         </span>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="flex">
                       <div></div>
                       <div></div>

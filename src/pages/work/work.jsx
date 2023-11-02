@@ -4,13 +4,14 @@ import { BsGithub } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { RiProfileLine } from "react-icons/ri";
-import Profile from "../../assets/profile.jpg";
+import Profile from "../../assets/profile/profile.jpg";
+import { CardAllPortfolio } from "../../component/card/portfolio/card-all-portfolio";
 
 export const WorkPage = () => {
   return (
     <div className="col-auto ">
-      <div className="fixed flex justify-center w-full h-full top-40">
-        <div className="flex justify-center w-10/12 gap-7">
+      <div className="fixed flex justify-center w-full h-full top-40 max-sm:relative ">
+        <div className="flex justify-center w-10/12 gap-7 max-sm:grid max-sm:grid-cols-1">
           <div className="2xl:w-2/5  col-auto">
             <div className="flex justify-center">
               <div className="flex items-center justify-center absolute 2xl:-top-2 -top-10">
@@ -21,9 +22,9 @@ export const WorkPage = () => {
                 />
               </div>
             </div>
-            <div className="w-full h-3/4 2xl:mt-16 rounded-2xl font-semibold bg-white col-auto max-2xl:p-4">
+            <div className="w-full h-3/4 2xl:mt-16 rounded-2xl font-semibold bg-white col-auto max-2xl:p-4 max-sm:h-full  ">
               <div className="flex justify-center ">
-                <div className="2xl:mt-24 mt-8 col-auto w-full">
+                <div className="2xl:mt-24 mt-8 col-auto w-full max-sm:p-3">
                   <div className="flex justify-center items-center">
                     <span className="text-black 2xl:text-2xl text-lg">
                       Andre Riyanto
@@ -141,7 +142,7 @@ export const WorkPage = () => {
             </div>
           </div>
 
-          <div className="2xl:w-3/6 w-5/6">
+          <div className="2xl:w-3/6 w-5/6 max-sm:w-full max-sm:h-full">
             <div className="col-auto text-black 2xl:mt-16 h-3/4 rounded-2xl bg-white">
               <div className="flex justify-center">
                 <div className="w-11/12">
@@ -153,23 +154,24 @@ export const WorkPage = () => {
                   </div>
                 </div>
               </div>
+              {/* title */}
               <div className="col-auto">
                 <div className="flex justify-center">
                   <div className="w-11/12">
-                    <div className="2xl:p-4 p-2 flex justify-center gap-8 items-center">
+                    <div className="2xl:p-4 p-1 flex justify-center gap-8 items-center">
                       <div></div>
                       <div>
-                        <span className="2xl:text-lg text-base font-semibold text-gray-600">
+                        <span className="2xl:text-lg text-base font-semibold text-black max-sm:text-sm">
                           All
                         </span>
                       </div>
                       <div>
-                        <span className="2xl:text-lg text-base font-semibold text-gray-600">
+                        <span className="2xl:text-lg text-base font-semibold text-gray-600 max-sm:text-sm">
                           Web Development
                         </span>
                       </div>
                       <div>
-                        <span className="2xl:text-lg text-base font-semibold text-gray-600">
+                        <span className="2xl:text-lg text-base font-semibold text-gray-600 max-sm:text-sm">
                           App Development
                         </span>
                       </div>
@@ -178,6 +180,8 @@ export const WorkPage = () => {
                   </div>
                 </div>
               </div>
+              {/* portfolio */}
+              <CardAllPortfolio />
             </div>
           </div>
         </div>
