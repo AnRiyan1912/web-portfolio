@@ -1,5 +1,5 @@
-import Pos1 from "../../../assets/portfolio/pos-system/pos1.png";
-import Pos2 from "../../../assets/portfolio/pos-system/pos2.png";
+import Pos1 from "../../../assets/portfolio/pos-system/pos1.PNG";
+import Pos2 from "../../../assets/portfolio/pos-system/pos2.PNG";
 import Sosialbook from "../../../assets/portfolio/sosialbook/sosialbook.png";
 import EventManagement from "../../../assets/portfolio/event-ticket-management/eventmanagement.png";
 import { Carousel } from "react-responsive-carousel";
