@@ -110,11 +110,11 @@ export const WorkPage = () => {
                             </div>
                             <div className="text-black font-normal 2xl:text-base text-xs ">
                               <a
-                                href="https://www.cakeresume.com/riyann-cd8330"
+                                href="https://drive.google.com/file/d/1-6lJV4-DIEkWkO1xwUEPMG_fwdmKuTQh/view?usp=drive_link"
                                 target="blank"
                                 className="text-justify "
                               >
-                                https://www.cakeresume.com/riyann-cd8330
+                                https://drive.google.com/file/d/1-6lJV4-DIEkWkO1xwUEPMG_fwdmKuTQh/view?usp=drive_link
                               </a>
                             </div>
                           </div>
