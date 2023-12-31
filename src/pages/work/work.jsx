@@ -10,7 +10,7 @@ import { CardAllPortfolio } from "../../component/card/portfolio/card-all-portfo
 export const WorkPage = () => {
   return (
     <div className="col-auto ">
-      <div className="fixed flex justify-center w-full h-full top-40 max-sm:relative ">
+      <div className="fixed flex justify-center w-full h-full top-32 max-sm:relative ">
         <div className="flex justify-center w-10/12 gap-7 max-sm:grid max-sm:grid-cols-1">
           <div className="2xl:w-2/5  col-auto">
             <div className="flex justify-center">

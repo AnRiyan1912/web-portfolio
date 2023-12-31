@@ -10,7 +10,7 @@ export const CardMenu = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
-      <div className="fixed top-0 flex justify-between items-center w-full 2xl:h-24 h-14 z-20 max-sm:bg-slate-100">
+      <div className="fixed top-0 flex justify-between items-center w-full 2xl:h-20 h-14 z-20 max-sm:bg-slate-100">
         <div></div>
 
         <div className="flex gap-1 text-2xl 2xl:text-4xl">
