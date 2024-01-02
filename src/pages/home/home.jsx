@@ -119,21 +119,6 @@ export const HomePage = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="flex gap-5 2xl:p-4  p-3 border-b-2">
-                        <div className="2xl:w-16 2xl:h-16 flex justify-center items-center ">
-                          <BsWhatsapp className="2xl:w-10 2xl:h-10 w-7 h-7 bg-green-400 rounded-md p-1" />
-                        </div>
-                        <div className="flex items-center">
-                          <div className="col-auto">
-                            <div className="text-black font-medium 2xl:text-lg text-sm">
-                              <span>Whatshapp</span>
-                            </div>
-                            <div className="text-black font-normal 2xl:text-base text-xs">
-                              <span>+62 813-6994- 6933</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>

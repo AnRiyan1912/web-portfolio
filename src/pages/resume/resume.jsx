@@ -122,21 +122,6 @@ export const ResumePage = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="flex gap-5 2xl:p-4  p-3 border-b-2">
-                        <div className="2xl:w-16 2xl:h-16 flex justify-center items-center ">
-                          <BsWhatsapp className="2xl:w-10 2xl:h-10 w-7 h-7 bg-green-400 rounded-md p-1" />
-                        </div>
-                        <div className="flex items-center">
-                          <div className="col-auto">
-                            <div className="text-black font-medium 2xl:text-lg text-sm">
-                              <span>Whatshapp</span>
-                            </div>
-                            <div className="text-black font-normal 2xl:text-base text-xs">
-                              <span>+62 813-6994- 6933</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -319,6 +304,23 @@ export const ResumePage = () => {
                       </span>
                     </div>
                   </div>
+                  <div className="flex justify-between mt-2 2xl:mt-4 max-sm:grid max-sm:grid-cols-2 gap-2">
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Java
+                      </span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Java Spring Boot
+                      </span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Golang
+                      </span>
+                    </div>
+                  </div>
                 </div>
                 <div className="col-auto  w-2/5 max-sm:w-full">
                   <div className="flex justify-between max-sm:grid max-sm:grid-cols-2 gap-2">
@@ -338,7 +340,25 @@ export const ResumePage = () => {
                       </span>
                     </div>
                   </div>
+                  <div className="flex justify-between max-sm:grid max-sm:grid-cols-2 gap-2 mt-2">
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-xs max-sm:text-xs">
+                        Intelej idea
+                      </span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Git
+                      </span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs">
+                        Gitlab
+                      </span>
+                    </div>
+                  </div>
                 </div>
+
                 <div></div>
               </div>
             </div>
