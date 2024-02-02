@@ -109,11 +109,12 @@ export const HomePage = () => {
                             </div>
                             <div className="text-black font-normal 2xl:text-base text-xs ">
                               <a
-                                href=" https://github.com/AnRiyan1912?tab=repositories"
+                                href="https://github.com/AnRiyan1912?tab=repositories"
                                 target="blank"
                                 className="text-justify text-black font-normal "
                               >
-                                My github
+                                My github:
+                                https://github.com/AnRiyan1912?tab=repositories
                               </a>
                             </div>
                           </div>
