@@ -241,9 +241,7 @@ export const ResumePage = () => {
                 </div>
                 <div></div>
                 <div className="flex items-center justify-center">
-                  <span className="2xl:text-2xl text-xl font-semibold">
-                    Tools
-                  </span>
+                  <span className="2xl:text-2xl text-xl font-semibold"></span>
                 </div>
                 <div></div>
               </div>
@@ -299,20 +297,31 @@ export const ResumePage = () => {
                       </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm max-sm:text-xs">
-                        REST API
-                      </span>
+                      <span className="max-2xl:text-sm max-sm:text-xs"></span>
                     </div>
                   </div>
                   <div className="flex justify-between mt-2 2xl:mt-4 max-sm:grid max-sm:grid-cols-2 gap-2">
                     <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm max-sm:text-xs">
-                        Java
+                      <span className="max-2xl:text-sm max-sm:text-xs"></span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs"></span>
+                    </div>
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-sm max-sm:text-xs"></span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-auto  w-2/5 max-sm:w-full">
+                  <div className="flex justify-between max-sm:grid max-sm:grid-cols-2 gap-2">
+                    <div className="bg-slate-100 p-2 rounded-xl">
+                      <span className="max-2xl:text-xs max-sm:text-xs">
+                        React Native
                       </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
                       <span className="max-2xl:text-sm max-sm:text-xs">
-                        Java Spring Boot
+                        TypeScript
                       </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
@@ -321,44 +330,24 @@ export const ResumePage = () => {
                       </span>
                     </div>
                   </div>
-                </div>
-                <div className="col-auto  w-2/5 max-sm:w-full">
-                  <div className="flex justify-between max-sm:grid max-sm:grid-cols-2 gap-2">
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-xs max-sm:text-xs">
-                        VS code
-                      </span>
-                    </div>
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm max-sm:text-xs">
-                        Postman
-                      </span>
-                    </div>
-                    <div className="bg-slate-100 p-2 rounded-xl">
-                      <span className="max-2xl:text-sm max-sm:text-xs">
-                        Github
-                      </span>
-                    </div>
-                  </div>
                   <div className="flex justify-between max-sm:grid max-sm:grid-cols-2 gap-2 mt-2">
                     <div className="bg-slate-100 p-2 rounded-xl">
                       <span className="max-2xl:text-xs max-sm:text-xs">
-                        Intelej idea
+                        Java Spring Boot
                       </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
                       <span className="max-2xl:text-sm max-sm:text-xs">
-                        Git
+                        Angular
                       </span>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-xl">
                       <span className="max-2xl:text-sm max-sm:text-xs">
-                        Gitlab
+                        Java
                       </span>
                     </div>
                   </div>
                 </div>
-
                 <div></div>
               </div>
             </div>

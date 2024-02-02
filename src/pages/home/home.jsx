@@ -3,7 +3,7 @@ import { BiLogoInstagramAlt, BiCodeAlt } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
-import { RiProfileLine } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 import Profile from "../../assets/profile/profile.jpg";
 
 export const HomePage = () => {
@@ -100,20 +100,20 @@ export const HomePage = () => {
                       </div>
                       <div className="flex gap-5 2xl:p-4 p-3  border-b-2">
                         <div className="2xl:w-16 2xl:h-16 flex justify-center items-center ">
-                          <RiProfileLine className="2xl:w-10 2xl:h-10 w-7 h-7 bg-black text-white rounded-md p-1" />
+                          <FaGithub className="2xl:w-10 2xl:h-10 w-7 h-7 bg-black text-white rounded-md p-1" />
                         </div>
                         <div className="flex items-center">
                           <div className="col-auto">
                             <div className="text-black font-medium 2xl:text-lg text-sm">
-                              <span>CV</span>
+                              <span>Github</span>
                             </div>
                             <div className="text-black font-normal 2xl:text-base text-xs ">
                               <a
-                                href="https://drive.google.com/file/d/1-6lJV4-DIEkWkO1xwUEPMG_fwdmKuTQh/view?usp=drive_link"
+                                href=" https://github.com/AnRiyan1912?tab=repositories"
                                 target="blank"
-                                className="text-justify "
+                                className="text-justify text-black font-normal "
                               >
-                                https://drive.google.com/file/d/1-6lJV4-DIEkWkO1xwUEPMG_fwdmKuTQh/view?usp=drive_link
+                                My github
                               </a>
                             </div>
                           </div>
