@@ -105,16 +105,15 @@ export const HomePage = () => {
                         <div className="flex items-center">
                           <div className="col-auto">
                             <div className="text-black font-medium 2xl:text-lg text-sm">
-                              <span>Github</span>
+                              <span>CV</span>
                             </div>
                             <div className="text-black font-normal 2xl:text-base text-xs ">
                               <a
-                                href="https://github.com/AnRiyan1912?tab=repositories"
+                                href="https://drive.google.com/file/d/1GH7F8_jXS3jn7y1o3PigwYjV7rXkXQoI/view?usp=drive_link"
                                 target="blank"
                                 className="text-justify text-black font-normal "
                               >
-                                My github:
-                                https://github.com/AnRiyan1912?tab=repositories
+                                Click To Get
                               </a>
                             </div>
                           </div>

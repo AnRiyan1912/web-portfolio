@@ -110,11 +110,11 @@ export const WorkPage = () => {
                             </div>
                             <div className="text-black font-normal 2xl:text-base text-xs ">
                               <a
-                                href="https://drive.google.com/file/d/1-6lJV4-DIEkWkO1xwUEPMG_fwdmKuTQh/view?usp=drive_link"
+                                href="https://drive.google.com/file/d/1GH7F8_jXS3jn7y1o3PigwYjV7rXkXQoI/view?usp=drive_link"
                                 target="blank"
                                 className="text-justify "
                               >
-                                https://drive.google.com/file/d/1-6lJV4-DIEkWkO1xwUEPMG_fwdmKuTQh/view?usp=drive_link
+                                Click to get
                               </a>
                             </div>
                           </div>
